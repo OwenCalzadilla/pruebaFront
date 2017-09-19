@@ -1,0 +1,55 @@
+.blue {
+	color: #58ACFA;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #58ACFA;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+	display: flex;
+}
+
+.header span{
+	align-self: center;
+	justify-self: right;
+	cursor: pointer;
+	margin-left: auto;
+	padding-right: 20px;
+}
+
+.header h1{
+	padding: 20px 0 20px 20px;	
+}
+
+.card {
+	display: inline-block;
+	width: 23%;
+	margin: 9px;
+	padding: 25px 0 25px 0;
+	text-align: center;
+	border: 1px solid #D8D8D8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.card:hover {
+	-webkit-box-shadow: 0 0 40px #D8D8D8;
+			box-shadow: 0 0 40px #D8D8D8;
+}
+
+.card p.blue {
+	padding-top: 10px;
+}
+
+
+
+.info-view .info {
+	display: block;
+	padding: 10px 0 10px 40px;
+}

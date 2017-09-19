@@ -1,0 +1,11 @@
+<div class="header">
+	<h1 class="blue">PRUEBA FRONT</h1>
+</div>
+<hr/>
+
+
+<div class="card" ng-repeat="user in users.users" ng-click="users.showUser(user.id)">
+	<p>{{user.name + ' ' + user.surname}}</p>
+	<p>{{user.id}}</p>
+	<p class="blue">{{user.address.street + ' ' + user.address.city}}</p>
+</div>

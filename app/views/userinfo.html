@@ -1,0 +1,30 @@
+
+<div class="header">
+	<h1 class="blue">{{userinfo.info.name + ' ' + userinfo.info.surname}}</h1>
+	<span ng-click="userinfo.goBack()">volver</span>
+</div>
+<hr/>
+
+
+<div class="info-view">
+	<div class="info">
+		<span class="blue">ID: </span>
+		{{userinfo.info.id}}
+	</div>
+	
+	<div class="info">
+		<span class="blue">DIRECCIÓN: </span>
+		{{userinfo.info.address.street + ' ' + userinfo.info.address.city}}
+	</div>
+	
+	<div class="info">
+		<span class="blue">EDAD: </span>
+		{{userinfo.info.age}}
+	</div>
+	
+	<div class="info">
+		<span class="blue">DESCRIPCIÓN: </span>
+		{{userinfo.info.description}}
+	</div>
+	
+</div>
